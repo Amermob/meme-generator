@@ -51,13 +51,15 @@ main {
             -o-border-radius: 10px;
         }
 
-        input:last-child {
+        input:first-child {
             float: left;
         }
-
-        input:first-child {
+        
+        input:last-child {
             float: right;
         }
+
+     
 
         img {
             width: 100%;
