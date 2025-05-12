@@ -77,12 +77,12 @@ main {
 
         .top {
             top: 25%;
-            left: 30%;
+            left: 40%;
         }
 
         .bottom {
             top: 45%;
-            left: 30%;
+            left: 40%;
             width: fit-content;
         }
 
