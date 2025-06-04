@@ -12,7 +12,6 @@ export default function Meme() {
         .then((res) => res.json())
         .then((res) => {
           const arrayOfMemes = res.data.memes;
-          console.log(res.data);
           const randomIng = arrayOfMemes[Math.floor(Math.random() * 100)].url;
           setImgSrc(randomIng);
         });
